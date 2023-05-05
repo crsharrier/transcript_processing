@@ -1,0 +1,57 @@
+Bob Dave
+the following line will count as 
+Bob being unsuccessfully [interrupted=
+
+                         [Dave gets an unsuccessful interruption-
+
+=because Bob carries on with his sentence
+
+Dave takes his turn to reply
+but he is successfully [interrupted- 
+
+                       [by Bob
+who scores a successful interruption
+Bob continues to talk, but gets overlapped
+just as he finishes his [sentence!
+
+                        [Dave is only a little
+overzealous, so that one counts as an overlap
+Dave pauses for a second=
+
+=Bob offers a minimal response=
+
+=and Dave caries right on talking 
+although before too long we [see another=
+
+                            [minimal response from Bob.
+
+=even though Dave carries on
+he [keeps talking-
+
+   [but Bob interrupts [successfully-
+
+                       [forcing Dave
+to interrupt right back.
+this [time Dave perseveres a [little longer-
+
+     [it takes-              [it takes Bob
+two attempts, constituting and unsuccessful
+and a successful interruption this time
+
+The final tally for Bob should be
+1 successfully interrupted
+1 unsuccessfully interrupted
+1 overlapped
+3 successful interruption
+1 unsuccessful interruption
+0 overlap
+2 minimal response
+
+The final tally for Dave should be
+3 successfully interrupted
+1 unsuccessfully interrupted
+0 overlapped
+1 successful interruption
+1 unsuccessful interruption
+1 overlap
+0 minimal response
