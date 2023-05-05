@@ -1,0 +1,56 @@
+\spkr{Bob}\overmk{A1}the following line will count as
+Bob being unsuccessfully \overmk{B1}[interrupted=
+\medskip
+\spkr{Dave}\hspace{\offset{A1}{B1}}[Dave gets an unsuccessful interruption-
+\medskip
+\spkr{Bob}=because Bob carries on with his sentence
+\medskip
+\spkr{Dave}Dave takes his turn to reply
+but he is successfully \overmk{B2}[interrupted-
+\medskip
+\spkr{Bob}\hspace{\offset{A1}{B2}}[by Bob
+who scores a successful interruption
+Bob continues to talk, but gets overlapped
+just as he finishes his \overmk{B3}[sentence!
+\medskip
+\spkr{Dave}\hspace{\offset{A1}{B3}}[Dave is only a little
+overzealous, so that one counts as an overlap
+Dave pauses for a second=
+\medskip
+\spkr{Bob}=Bob offers a minimal response=
+\medskip
+\spkr{Dave}=and Dave caries right on talking
+although before too long we \overmk{B4}[see another=
+\medskip
+\spkr{Bob}\hspace{\offset{A1}{B4}}[minimal response from Bob.
+\medskip
+\spkr{Dave}=even though Dave carries on
+he \overmk{B5}[keeps talking-
+\medskip
+\spkr{Bob}\hspace{\offset{A1}{B5}}[but Bob interrupts \overmk{B6}[successfully-
+\medskip
+\spkr{Dave}\hspace{\offset{A1}{B6}}[forcing Dave
+to interrupt right back.
+this \overmk{B7}[time Dave perseveres a \overmk{B8}[little longer-
+\medskip
+\spkr{Bob}\hspace{\offset{A1}{B8}}[it takes-              \hspace{\offset{A1}{B9}}[it takes Bob
+two attempts, constituting and unsuccessful
+and a successful interruption this time
+\medskip
+\spkr{Dave}The final tally for Bob should be
+1 successfully interrupted
+1 unsuccessfully interrupted
+1 overlapped
+3 successful interruption
+1 unsuccessful interruption
+0 overlap
+2 minimal response
+\medskip
+\spkr{Bob}The final tally for Dave should be
+3 successfully interrupted
+1 unsuccessfully interrupted
+0 overlapped
+1 successful interruption
+1 unsuccessful interruption
+1 overlap
+0 minimal response

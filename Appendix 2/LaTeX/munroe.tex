@@ -1,0 +1,77 @@
+\documentclass{article}
+\usepackage{layout}
+\setlength{\oddsidemargin}{20pt}
+\setlength{\textwidth}{450pt}
+
+%set up commands for interruption alignment
+\usepackage[user,savepos]{zref}
+\newcommand{\offset}[2]{\dimexpr\zposx{#2}sp-\zposx{#1}sp\relax}
+\newcommand{\overmk}[1]{\leavevmode\zsaveposx{#1}}
+
+%set up line numbers
+\usepackage{lineno}
+
+\usepackage{hyperref}
+\usepackage{fontspec}
+\setmainfont{Lucida Console}
+
+%set up command for speaker names in left margin
+\usepackage{marginnote}
+\usepackage[marginparsep=1cm]{geometry}
+\newcommand{\spkr}[1]{\reversemarginpar\marginnote{#1}}
+
+\makeatletter
+\def\input@path{{../tagged/}}
+\makeatother
+
+\newenvironment{transcript}{\noindent\ignorespaces}{\par\noindent\ignorespacesafterend}
+\title{\textbf{Piers Morgan and Munroe Bergdorf}}
+\date{}
+\author{\texttt{transcript:} Good Morning Britain Sept '17\\\tiny\url{https://www.youtube.com/watch?v=BAvFAm1eJEQ\&t=19s\&ab\_channel=GoodMorningBritain}}
+
+\newcommand{\mycomment}[1]{}
+\usepackage{array}
+\usepackage{setspace}
+
+
+\begin{document}
+\maketitle
+\begin{transcript}
+\linenumbers
+\ttfamily
+\obeylines
+\input{munroe_tagged_edited.txt}
+\end{transcript}
+\vskip 4em
+\begin{center}
+\Large\textbf{END OF TRANSCRIPT}
+\end{center}
+\pagebreak
+
+
+
+\Large 
+\textbf{Conventions:}
+\vskip 1ex
+\normalsize
+\fontfamily{qpl}\selectfont
+\setstretch{1.5}
+	\begin{tabular}{  p{4em}  p{2em}  p{11cm}  }
+	 (I don't) & - & Brackets mark speech that is not clearly intelligible… \\ 
+	 (...) & - & …or intelligible at all \\\relax  
+	 [ & - & Indicates the start of an ‘overlap segment’ \\
+	\end{tabular}
+\vskip 1em
+\noindent Overlap segments come in pairs – an ‘interrupted’ and an ‘interruption’ segment:
+\vskip 1em
+	\begin{tabular}{  p{4em}  p{2em}  p{11cm}  }
+	 . ! ? & - & Any of these ‘stops’ at the end of an ‘interrupted’ segment indicate that the 		speaker seems to complete their speech unit before they are interrupted. At the end of 	an ‘interruption’ segment, they indicate that the speaker seems to provide a minimal 			response rather than intending to interrupt. \\ 
+	 - & - & A hyphen indicates that a speaker seems to stop before their speech unit is 			complete. At the end of an overlap segment this indicates that a speaker was either 			‘successfully interrupted’ or produced an ‘unsuccessful interruption’ \\  
+	 = & - & An equals sign links two lines together, usually from one speaker  to 				themselves again two lines later to show that they continue to speak through an 			interruption. Equals signs are also used to mark minimal responses which don’t 			overlap.    
+	\end{tabular}
+\vskip 1em
+\noindent Any punctuation found outside of an overlap segment is used only to aid legibility and as such, is not subject to strict customs. \\
+\\
+Line breaks loosely reflect speech units, but this guideline is often violated to prioritise the alignment of simultaneous speech.
+
+\end{document}
