@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage[user,savepos]{zref}
+\usepackage{layout}
+\setlength{\oddsidemargin}{20pt}
+\setlength{\textwidth}{450pt}
+
+\newcommand{\offset}[2]{\dimexpr\zposx{#2}sp-\zposx{#1}sp\relax}
+\newcommand{\overmk}[1]{\leavevmode\zsaveposx{#1}}
+
+\usepackage{lineno}
+\linenumbers
+\usepackage{marginnote}
+\usepackage[marginparsep=1cm]{geometry}
+
+\newcommand{\spkr}[1]{\reversemarginpar\marginnote{#1}}
+
+\newenvironment{transcript}{\noindent\ignorespaces}{\par\noindent\ignorespacesafterend}
+
+\begin{document}
+\begin{transcript}
+\spkr{Benjamin}\overmk{A1}well I think the way that piers talks about trans people\\
+and specifically non-binary people is that you mock them\\
+you make fun of them \\
+you use them as entertainment \\
+you use the lives of real people in this country \\
+a vulnerable minority \\
+as something to make fun of and get a reaction \\
+and I don't think that's the quality journalism \overmk{B1}[that you do elsewhere\\
+\spkr{Susanna}\hspace{\offset{A1}{B1}}[when has he done that\\
+\spkr{Benjamin}\overmk{B2}[well for example- well=\\
+\spkr{Piers}\hspace{\offset{A1}{B2}}[well be specific, be specific\\
+\spkr{Benjamin}=when you claim that you’re a\\
+you're a two-spirit \overmk{B3}[penguin\\
+\spkr{Piers}\hspace{\offset{A1}{B3}}[yeah,\\ 
+you know why I did that?\\
+\spkr{Benjamin}go on=\\
+\spkr{Piers}=coz you and I had this debate about the hundred genders=\\
+\spkr{Benjamin}=yeah=\\
+\end{transcript}
+
+\begin{transcript}
+\obeylines
+\input{morgan_goddard_clean.txt}
+\end{transcript}
+\end{document}
