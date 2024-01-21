@@ -1,5 +1,5 @@
 ### The Pragmatics of Gaslighting - Exploratory Data Analysis
-#### May 2023
+#### BA Linguistics Dissertation - May 2023
 
 The 'final product' transcript PDFs are found in Appendix 1.
 Inside Appendix 2, you will find a jupyter notebook entitled 'transcript_conversion_notebook'. This is where the the transcripts are tagged and features counted. 
